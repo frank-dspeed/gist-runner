@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GistRun</title>
+  <meta name="description" content="Bring your Gists to life with GistRun! Create or update GitHub Gists, share on StackOverflow and more.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://gist.run">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="prefetch" href="img/icons.svg">
+  <link rel="stylesheet" href="index.css">
+  <include src="og-meta.html"></include>
+</head>
+
+<body>
+  <include src="page-header.html"></include>
+
+  <include src="command-bar.html"></include>
+
+  <div class="main">
+    <div id="nav-panel">
+      <nav class="menu">
+        <a class="menu-item selected">index.html</a>
+      </nav>
+      <nav class="menu">
+        <a class="menu-item" href="#" target="_blank">
+          <svg class="octicon" width="16" height="16">
+            <use xlink:href="img/icons.svg#icon-gist"></use>
+          </svg>
+          Gist
+        </a>
+        <a class="menu-item" href="#" target="_blank">
+          <svg class="octicon" width="16" height="16">
+            <use xlink:href="img/icons.svg#icon-git-commit"></use>
+          </svg>
+          <span class="Counter Counter--gray-light">4</span> Revisions
+        </a>
+        <a class="menu-item" href="#" target="_blank">
+          <svg class="octicon" width="16" height="16">
+            <use xlink:href="img/icons.svg#icon-repo-forked"></use>
+          </svg>
+          <span class="Counter Counter--gray-light">2</span> Forks
+        </a>
+        <a class="menu-item" href="#">
+          <svg class="octicon octicon-stack-overflow" width="16" height="16">
+            <use xlink:href="img/icons.svg#icon-stack-overflow"></use>
+          </svg> Copy
+        </a>
+        <a class="menu-item" href="?id=" target="_blank">
+          <svg class="octicon" width="16" height="16">
+            <use xlink:href="img/icons.svg#icon-code"></use>
+          </svg>
+          Embed
+        </a>
+        <a class="menu-item" href="https://github.com/gist-run/gist-run/blob/master/README.md" target="_blank">
+          <svg class="octicon" width="16" height="16">
+            <use xlink:href="img/icons.svg#icon-info"></use>
+          </svg>
+          About
+        </a>
+      </nav>
+    </div>
+    <div id="editor" class="Box"></div>
+    <iframe id="output" class="Box"></iframe>
+  </div>
+
+  <script src="index.ts"></script>
+</body>
+
+</html>

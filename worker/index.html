@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GistRun</title>
+    <script>
+      'use strict'
+
+      const targetOrigin = location.origin === 'https://gist.host' ? 'https://gist.run' : 'http://localhost:9000';
+
+      navigator.serviceWorker.register(`${location.origin}/worker.js`, { scope: './' });
+
+      addEventListener('message', event => {
+        if (event.origin !== targetOrigin) {
+          return;
+        }
+        navigator.serviceWorker.ready.then(registration => {
+          registration.active.postMessage(event.data, event.ports);
+        });
+      });
+
+      setTimeout(function() { parent.postMessage('worker page ready', targetOrigin); });
+    </script>
+  </head>
+  <body>
+    Worker Activator
+  </body>
+</html>

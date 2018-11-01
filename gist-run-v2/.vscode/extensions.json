@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "eg2.tslint",
+    "EditorConfig.EditorConfig",
+    "ms-vscode.typescript-javascript-grammar",
+    "mrmlnc.vscode-scss"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "github-oauth-server",
+  "description": "GitHub OAuth server for GistRun",
+  "repository": "https://github.com/gist-run/github-oauth-server",
+  "logo": "https://gist.run/img/logo.png",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}

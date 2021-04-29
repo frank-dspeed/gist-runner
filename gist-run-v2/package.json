@@ -39,16 +39,16 @@
   },
   "homepage": "https://github.com/gist-run/gist-run#readme",
   "devDependencies": {
-    "@types/requirejs": "^2.1.31",
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/parser": "^4.22.0",
-    "browser-sync": "^2.18.13",
-    "chokidar-cli": "^1.2.0",
-    "concurrently": "^3.5.0",
-    "copyfiles": "^1.2.0",
-    "eslint": "^7.25.0",
-    "svg-sprite": "^1.5.0",
-    "typescript": "^4.2.4"
+    "@types/requirejs": "2.1.32",
+    "@typescript-eslint/eslint-plugin": "4.22.0",
+    "@typescript-eslint/parser": "4.22.0",
+    "browser-sync": "2.26.14",
+    "chokidar-cli": "1.2.3",
+    "concurrently": "3.6.1",
+    "copyfiles": "1.2.0",
+    "eslint": "7.25.0",
+    "svg-sprite": "1.5.0",
+    "typescript": "4.2.4"
   },
   "dependencies": {
     "aurelia-bootstrapper": "^2.1.1",

@@ -8,7 +8,11 @@ function relayMessageToWorker(event: MessageEvent) {
     return;
   }
   navigator.serviceWorker.ready
-    .then(registration => registration.active.postMessage(event.data, event.ports));
+    .then(registration => {
+      const { ports } = event;
+      const portsMessage = [...ports]
+      registration.active.postMessage(event.data, portsMessage)
+    });
 }
 
 addEventListener('message', relayMessageToWorker);

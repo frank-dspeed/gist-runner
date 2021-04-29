@@ -8,7 +8,7 @@ export function activate() {
   document.body.appendChild(iframe);
 }
 
-let resolveWorkerPage: () => void;
+let resolveWorkerPage: (value: unknown) => void;
 const workerPageReady = new Promise(resolve => resolveWorkerPage = resolve);
 
 function handleMessage(event: MessageEvent) {
@@ -16,7 +16,7 @@ function handleMessage(event: MessageEvent) {
     return;
   }
   removeEventListener('message', handleMessage);
-  resolveWorkerPage();
+  resolveWorkerPage(null);
 }
 addEventListener('message', handleMessage);
 

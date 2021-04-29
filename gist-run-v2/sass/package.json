@@ -1,0 +1,12 @@
+{
+  "name": "gist-run-sass",
+  "scripts": {
+    "sass": "node-sass src/editor/index.scss ../editor/index.css --include-path node_modules"
+  },
+
+  "devDependencies": {
+    "node-sass": "5.0.0",
+    "primer": "11.0.0",
+    "primer-css": "9.6.0"
+  }
+}

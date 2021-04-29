@@ -14,7 +14,7 @@
     "url": "http://github.com/gist-run/gist-run"
   },
   "devDependencies": {
-    "aurelia-bundler": "^0.2.1",
+    "aurelia-bundler": "0.7.0",
     "aurelia-tools": "^0.1.18",
     "babel": "^5.8.23",
     "babel-eslint": "^4.1.3",

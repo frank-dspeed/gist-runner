@@ -5,8 +5,8 @@
   },
 
   "devDependencies": {
-    "node-sass": "^5.0.0",
-    "primer": "^11.0.0",
-    "primer-css": "^9.6.0"
+    "node-sass": "5.0.0",
+    "primer": "11.0.0",
+    "primer-css": "9.6.0"
   }
 }

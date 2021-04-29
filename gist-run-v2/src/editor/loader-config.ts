@@ -18,7 +18,7 @@ const config = {
     'aurelia-templating': 'node_modules/aurelia-templating/dist/amd/aurelia-templating',
     'aurelia-templating-binding': 'node_modules/aurelia-templating-binding/dist/amd/aurelia-templating-binding',
     'Split': 'node_modules/split.js/split',
-    'text': 'node_modules/text/text',
+    'text': 'text',
     'tslib': 'node_modules/tslib/tslib',
     'vs': 'node_modules/monaco-editor/min/vs',
   },

@@ -1,0 +1,17 @@
+.split-panel {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: calc(100% - 2 * 15px - 50px - 34px);
+  padding: 0 15px 15px 15px;
+}
+.split-panel > div,
+.split-panel .gutter.gutter-horizontal {
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  margin: 0;
+}
+.split-panel .gutter.gutter-horizontal {
+  cursor: col-resize;
+}

@@ -31,7 +31,7 @@
     "http-proxy": "1.18.1",
     "isparta": "3.5.3",
     "object.assign": "1.1.1",
-    "require-dir": "0.1.0",
+    "require-dir": "0.3.2",
     "run-sequence": "1.2.2",
     "vinyl-paths": "1.0.0",
     "yargs": "2.3.0"

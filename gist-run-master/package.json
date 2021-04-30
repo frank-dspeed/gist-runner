@@ -39,7 +39,7 @@
   "dependencies": {
     "ace-builds": "github:ajaxorg/ace-builds",
     "alertify.js": "^1.0.10",
-    "aurelia-bootstrapper": "^1.0.0-beta.1.2.0",
+    "aurelia-bootstrapper": "^2.0.0",
     "aurelia-event-aggregator": "^1.0.0-beta.1.2.0",
     "aurelia-framework": "^1.0.0-beta.1.2.1",
     "aurelia-pal": "^1.0.0-beta.1.2.0",

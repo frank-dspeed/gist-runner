@@ -29,7 +29,7 @@
     "gulp-notify": "2.2.0",
     "gulp-plumber": "1.2.1",
     "http-proxy": "1.18.1",
-    "isparta": "3.5.3",
+    "isparta": "4.1.1",
     "object.assign": "1.1.1",
     "require-dir": "0.1.0",
     "run-sequence": "1.2.2",

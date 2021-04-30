@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "aurelia-bundler": "0.2.1",
-    "aurelia-tools": "0.1.22",
+    "aurelia-tools": "2.0.0",
     "babel": "5.8.38",
     "babel-eslint": "4.1.8",
     "browser-sync": "2.26.14",

@@ -22,7 +22,7 @@
     "node-sass": "5.0.0",
     "octicons": "7.4.0",
     "parcel-bundler": "jdanyow/parcel#gr",
-    "posthtml": "0.11.6",
+    "posthtml": "0.15.2",
     "posthtml-include": "1.7.1",
     "primer": "10.10.5",
     "split.js": "1.6.4",

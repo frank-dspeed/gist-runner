@@ -44,7 +44,7 @@
     "@typescript-eslint/parser": "4.22.0",
     "browser-sync": "2.26.14",
     "chokidar-cli": "1.2.3",
-    "concurrently": "3.6.1",
+    "concurrently": "6.0.2",
     "copyfiles": "1.2.0",
     "eslint": "7.25.0",
     "svg-sprite": "1.5.0",

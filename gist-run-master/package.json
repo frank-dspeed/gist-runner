@@ -17,7 +17,7 @@
     "aurelia-bundler": "0.2.1",
     "aurelia-tools": "0.1.22",
     "babel": "5.8.38",
-    "babel-eslint": "4.1.8",
+    "babel-eslint": "10.1.0",
     "browser-sync": "2.26.14",
     "del": "1.2.1",
     "gulp": "3.9.1",

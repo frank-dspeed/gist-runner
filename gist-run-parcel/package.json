@@ -19,7 +19,7 @@
     "@types/split.js": "1.4.0",
     "copyfiles": "1.2.0",
     "monaco-editor": "0.10.1",
-    "node-sass": "5.0.0",
+    "node-sass": "4.13.1",
     "octicons": "7.4.0",
     "parcel-bundler": "jdanyow/parcel#gr",
     "posthtml": "0.11.6",
